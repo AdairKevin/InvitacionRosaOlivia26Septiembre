@@ -414,37 +414,51 @@ td span {
   transform: translateY(-3px);
 }
 
-.mesa__regalos {
+.extras {
   width: 100%;
-  margin-top: 10%;
-  padding: 20px;
-  background-color: #8d00a0;
-  text-align: center;
-  color: #fdf7e5;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
 
+.extra-card {
+  background: linear-gradient(160deg, #fcedf8, #e764d8, #7f4ab8);
+  padding: 30px 25px;
+  text-align: center;
+
+  box-shadow:
+    0 15px 35px rgba(0, 0, 0, 0.06),
+    0 5px 15px rgba(231, 100, 216, 0.12);
+  position: relative;
+  overflow: hidden;
+}
+
+.extra-icon img {
+  width: 150px;
+  margin-bottom: 25px;
+}
+
+.extra-card h2 {
+  font-family: "Great Vibes", cursive;
+  font-size: 35px;
+  letter-spacing: 3px;
+  color: #fffeff;
+  margin-bottom: 15px;
+}
+
+.extra-card p {
+  font-family: "Merriweather", serif;
+  font-size: 15px;
+  line-height: 1.8;
+  color: #ffffff;
+  margin: 0;
+}
+
+.mesa-regalos {
   view-timeline-name: --container;
   view-timeline-axis: block;
   animation-timeline: --container;
-
   animation-name: izquierda;
-
-  box-shadow: inset 0 0 15px rgba(0, 0, 0, 0.311);
-
-  h1 {
-    font-family: "League Script", serif;
-  }
-}
-
-.mesa__regalos svg {
-  width: 50px;
-  margin-bottom: 10px;
-  color: #ffffff;
-}
-
-.codigo__vestimenta svg {
-  width: 50px;
-  margin-bottom: 10px;
-  color: #ffffff;
 }
 
 @keyframes izquierda {
@@ -458,21 +472,10 @@ td span {
 }
 
 .codigo__vestimenta {
-  width: 100%;
-  padding: 20px;
-  background-color: #b731a9;
-  text-align: center;
-  color: #fdf7e5;
-  font-size: 15px;
   view-timeline-name: --container;
   view-timeline-axis: block;
   animation-timeline: --container;
   animation-name: derecha;
-  box-shadow: inset 0 0 15px rgba(0, 0, 0, 0.311);
-
-  h1 {
-    font-family: "League Script", serif;
-  }
 }
 
 @keyframes derecha {
@@ -486,27 +489,107 @@ td span {
   }
 }
 .confirmar {
-  padding: 20px;
-  margin-top: 5%;
-  font-size: 15px;
+  width: 90%;
+  max-width: 500px;
+  margin: 50px auto;
+  padding: 40px 30px;
   text-align: center;
+  background: white;
+  border-radius: 30px;
+  border: 2px solid rgba(231, 100, 216, 0.15);
+
+  box-shadow:
+    0 15px 35px rgba(0, 0, 0, 0.08),
+    0 5px 15px rgba(231, 100, 216, 0.12);
 }
 
 .confirmar span {
-  font-family: "League Script", serif;
+  display: block;
+  font-family: "Great Vibes", cursive;
   font-size: 30px;
-  font-weight: 600;
+  letter-spacing: 2px;
+  color: #b54fc5;
+
+  margin-bottom: 15px;
 }
-.confirmar a {
-  text-decoration: none;
-  color: unset;
+
+.confirmar p {
+  font-family: "Merriweather", serif;
+  line-height: 1.8;
+  font-size: 15px;
+  color: #000000;
+  margin-bottom: 25px;
+}
+
+.confirmar b {
+  color: #e764d8;
 }
 
 .confirmarBtn {
   border: none;
-  padding: 10px 15px;
-  background: #fb64ec;
-  border-radius: 5px;
-  font-family: "Italiana", serif;
-  color: #fdf7e5;
+
+  padding: 14px 35px;
+
+  border-radius: 50px;
+
+  background: linear-gradient(135deg, #e764d8, #b54fc5);
+
+  color: white;
+
+  font-family: "Merriweather", serif;
+  font-weight: 600;
+
+  cursor: pointer;
+
+  box-shadow: 0 10px 20px rgba(181, 79, 197, 0.25);
+
+  transition: all 0.3s ease;
+}
+
+.confirmarBtn:hover {
+  transform: translateY(-3px);
+
+  box-shadow: 0 15px 25px rgba(181, 79, 197, 0.35);
+}
+
+.separador {
+  color: #e764d8;
+  font-size: 20px;
+  margin-bottom: 20px;
+  letter-spacing: 10px;
+}
+
+.footer-mirai {
+  width: 100%;
+  margin-top: 50px;
+  padding: 20px;
+
+  text-align: center;
+
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+
+  font-size: 12px;
+
+  opacity: 0.7;
+}
+
+.footer-mirai span {
+  font-family: "Merriweather", serif;
+  color: #777;
+}
+
+.footer-mirai a {
+  text-decoration: none;
+
+  color: #b54fc5;
+
+  font-family: "Merriweather", serif;
+
+  transition: 0.3s;
+}
+
+.footer-mirai a:hover {
+  color: #e764d8;
 }
