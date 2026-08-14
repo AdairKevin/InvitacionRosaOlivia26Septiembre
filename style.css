@@ -552,6 +552,11 @@ td span {
   box-shadow: 0 15px 25px rgba(181, 79, 197, 0.35);
 }
 
+.confirmarBtn a {
+  text-decoration: none;
+  color: white;
+}
+
 .separador {
   color: #e764d8;
   font-size: 20px;
@@ -592,4 +597,20 @@ td span {
 
 .footer-mirai a:hover {
   color: #e764d8;
+}
+
+.watermark {
+  position: fixed;
+  inset: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  pointer-events: none;
+  z-index: 9999;
+  font-size: 4rem;
+  font-weight: 700;
+  color: rgba(43, 43, 43, 0.108);
+  transform: rotate(-30deg);
+  text-transform: uppercase;
+  letter-spacing: 8px;
 }
