@@ -614,3 +614,60 @@ td span {
   text-transform: uppercase;
   letter-spacing: 8px;
 }
+
+.musica {
+  margin: 0 auto;
+  text-align: center;
+  opacity: 0;
+}
+
+.ticket-info {
+  width: 100%;
+  background: #fff;
+}
+
+.info-row {
+  display: flex;
+  width: 100%;
+  align-items: center;
+}
+
+.info-col {
+  flex: 1;
+  padding: 15px 18px;
+}
+
+.info-col .label {
+  display: block;
+  font-size: 10px;
+  letter-spacing: 2px;
+  font-weight: 600;
+  color: #9b7a9f;
+  margin-bottom: 5px;
+}
+
+.info-col .value {
+  display: block;
+  font-family: "Merriweather", serif;
+  font-size: 17px;
+  font-weight: 600;
+  color: #3d303f;
+}
+
+.pases-texto {
+  font-family: "Merriweather", serif;
+  font-size: 13px;
+  font-weight: 400;
+  color: #777;
+}
+
+.border-top {
+  border-top: 1px dashed rgba(183, 79, 197, 0.25);
+}
+
+.stamp-icon {
+  flex: 0 0 55px;
+  text-align: center;
+  color: #c9a44c;
+  font-size: 25px;
+}

@@ -1,0 +1,257 @@
+{
+  "ROS001": {
+    "nombre": "REFUGIO Y FAMILIA",
+    "pasesAdulto": 3,
+    "pasesNino": 0
+  },
+  "ROS002": {
+    "nombre": "ARTURO RESENDIZ",
+    "pasesAdulto": 3,
+    "pasesNino": 0
+  },
+  "ROS003": {
+    "nombre": "HUMBERTO NUÑEZ",
+    "pasesAdulto": 2,
+    "pasesNino": 0
+  },
+  "ROS004": {
+    "nombre": "TERESA NUÑEZ",
+    "pasesAdulto": 2,
+    "pasesNino": 0
+  },
+  "ROS005": {
+    "nombre": "ELVIRA Y FAMILIA",
+    "pasesAdulto": 5,
+    "pasesNino": 0
+  },
+  "ROS006": {
+    "nombre": "ARMANDO COLIN",
+    "pasesAdulto": 16,
+    "pasesNino": 0
+  },
+  "ROS007": {
+    "nombre": "SERGIO COLIN",
+    "pasesAdulto": 2,
+    "pasesNino": 0
+  },
+  "ROS008": {
+    "nombre": "GRACIELA Y FAMILIA",
+    "pasesAdulto": 6,
+    "pasesNino": 0
+  },
+  "ROS009": {
+    "nombre": "EMMA COLIN",
+    "pasesAdulto": 6,
+    "pasesNino": 0
+  },
+  "ROS010": {
+    "nombre": "MARIO COLIN",
+    "pasesAdulto": 11,
+    "pasesNino": 0
+  },
+  "ROS011": {
+    "nombre": "LUCIA YESCAS",
+    "pasesAdulto": 1,
+    "pasesNino": 0
+  },
+  "ROS012": {
+    "nombre": "ANA MARIA COLIN",
+    "pasesAdulto": 2,
+    "pasesNino": 0
+  },
+  "ROS013": {
+    "nombre": "ELIDETH LOPEZ",
+    "pasesAdulto": 2,
+    "pasesNino": 0
+  },
+  "ROS014": {
+    "nombre": "ITZEL LOPEZ",
+    "pasesAdulto": 4,
+    "pasesNino": 0
+  },
+  "ROS015": {
+    "nombre": "XOCHITL Y FAMILIA",
+    "pasesAdulto": 8,
+    "pasesNino": 0
+  },
+  "ROS016": {
+    "nombre": "JESUS COLIN",
+    "pasesAdulto": 2,
+    "pasesNino": 0
+  },
+  "ROS017": {
+    "nombre": "PERLA RESENDIZ",
+    "pasesAdulto": 2,
+    "pasesNino": 0
+  },
+  "ROS018": {
+    "nombre": "ROBERTO VARGAS",
+    "pasesAdulto": 2,
+    "pasesNino": 0
+  },
+  "ROS019": {
+    "nombre": "JUAN CARLOS VARGAS",
+    "pasesAdulto": 2,
+    "pasesNino": 0
+  },
+  "ROS0366": {
+    "nombre": "OMAR VARGAS",
+    "pasesAdulto": 2,
+    "pasesNino": 0
+  },
+  "ROS020": {
+    "nombre": "MIRNA VARGAS",
+    "pasesAdulto": 2,
+    "pasesNino": 0
+  },
+  "ROS021": {
+    "nombre": "JESSICA",
+    "pasesAdulto": 2,
+    "pasesNino": 0
+  },
+  "ROS022": {
+    "nombre": "CAROLINA",
+    "pasesAdulto": 8,
+    "pasesNino": 0
+  },
+  "ROS023": {
+    "nombre": "CITLALI",
+    "pasesAdulto": 4,
+    "pasesNino": 0
+  },
+  "ROS024": {
+    "nombre": "YERALDIN",
+    "pasesAdulto": 2,
+    "pasesNino": 0
+  },
+  "ROS025": {
+    "nombre": "MONICA",
+    "pasesAdulto": 4,
+    "pasesNino": 0
+  },
+  "ROS026": {
+    "nombre": "ALMA",
+    "pasesAdulto": 2,
+    "pasesNino": 0
+  },
+  "ROS027": {
+    "nombre": "PAOLA",
+    "pasesAdulto": 2,
+    "pasesNino": 0
+  },
+  "ROS028": {
+    "nombre": "KATHERINE",
+    "pasesAdulto": 4,
+    "pasesNino": 0
+  },
+  "ROS029": {
+    "nombre": "AZUCENA",
+    "pasesAdulto": 2,
+    "pasesNino": 0
+  },
+  "ROS030": {
+    "nombre": "TERESA",
+    "pasesAdulto": 3,
+    "pasesNino": 0
+  },
+  "ROS031": {
+    "nombre": "LAURITA",
+    "pasesAdulto": 2,
+    "pasesNino": 0
+  },
+  "ROS032": {
+    "nombre": "LUZ MARIA",
+    "pasesAdulto": 2,
+    "pasesNino": 0
+  },
+  "ROS033": {
+    "nombre": "VICTOR",
+    "pasesAdulto": 2,
+    "pasesNino": 0
+  },
+  "ROS034": {
+    "nombre": "CRISTINA",
+    "pasesAdulto": 2,
+    "pasesNino": 0
+  },
+  "ROS035": {
+    "nombre": "BLANQUITA",
+    "pasesAdulto": 3,
+    "pasesNino": 0
+  },
+  "ROS036": {
+    "nombre": "JEANETTE",
+    "pasesAdulto": 2,
+    "pasesNino": 0
+  },
+  "ROS037": {
+    "nombre": "MARIA INES",
+    "pasesAdulto": 2,
+    "pasesNino": 0
+  },
+  "ROS038": {
+    "nombre": "DIANA",
+    "pasesAdulto": 2,
+    "pasesNino": 0
+  },
+  "ROS039": {
+    "nombre": "YUNUEN",
+    "pasesAdulto": 3,
+    "pasesNino": 0
+  },
+  "ROS040": {
+    "nombre": "JANIK",
+    "pasesAdulto": 2,
+    "pasesNino": 0
+  },
+  "ROS041": {
+    "nombre": "CINTHIA",
+    "pasesAdulto": 1,
+    "pasesNino": 0
+  },
+  "ROS042": {
+    "nombre": "ELISA",
+    "pasesAdulto": 1,
+    "pasesNino": 0
+  },
+  "ROS043": {
+    "nombre": "DANIELA",
+    "pasesAdulto": 3,
+    "pasesNino": 0
+  },
+  "ROS044": {
+    "nombre": "MARIEL",
+    "pasesAdulto": 2,
+    "pasesNino": 0
+  },
+  "ROS045": {
+    "nombre": "MARGARITA",
+    "pasesAdulto": 2,
+    "pasesNino": 0
+  },
+  "ROS046": {
+    "nombre": "KENIA",
+    "pasesAdulto": 2,
+    "pasesNino": 0
+  },
+  "ROS047": {
+    "nombre": "GABRIELA",
+    "pasesAdulto": 3,
+    "pasesNino": 0
+  },
+  "ROS048": {
+    "nombre": "AURORA",
+    "pasesAdulto": 1,
+    "pasesNino": 0
+  },
+  "ROS049": {
+    "nombre": "RAQUEL",
+    "pasesAdulto": 2,
+    "pasesNino": 0
+  },
+  "ROS050": {
+    "nombre": "THALIA",
+    "pasesAdulto": 2,
+    "pasesNino": 0
+  }
+}

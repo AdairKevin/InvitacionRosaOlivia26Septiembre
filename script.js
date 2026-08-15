@@ -1,8 +1,13 @@
 function abrirSobre() {
   const sobre = document.querySelector(".envelope");
+  const musica = document.getElementById("musica1");
+
   if (!sobre.classList.contains("abierto")) {
     sobre.classList.add("abierto");
-    sobre.onclick = null; // Desactiva el evento de clic después de abrir
+    sobre.onclick = null;
+    musica.play().catch((error) => {
+      console.log("No se pudo reproducir la música:", error);
+    });
   }
 }
 
@@ -42,4 +47,35 @@ document.addEventListener("DOMContentLoaded", () => {
   updateCountdown();
 
   setInterval(updateCountdown, MILLISECONDS_OF_A_SECOND);
+});
+
+document.addEventListener("DOMContentLoaded", async () => {
+  try {
+    // Obtener el código de la URL
+    const codigo = new URLSearchParams(window.location.search).get("id");
+
+    if (!codigo) {
+      document.getElementById("nombre").textContent = "Código no encontrado";
+      return;
+    }
+
+    // Leer el archivo JSON
+    const response = await fetch("./files/links.json");
+    const boletos = await response.json();
+
+    // Buscar invitado
+    const invitado = boletos[codigo];
+
+    if (!invitado) {
+      document.getElementById("nombre").textContent = "Invitación inválida";
+      return;
+    }
+
+    // Mostrar datos
+    document.getElementById("nombre").textContent = invitado.nombre;
+    document.getElementById("pasesAdulto").textContent = invitado.pasesAdulto;
+  } catch (error) {
+    console.error(error);
+    document.getElementById("nombre").textContent = "Error al cargar datos";
+  }
 });
