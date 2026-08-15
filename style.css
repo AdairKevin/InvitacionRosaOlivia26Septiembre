@@ -491,7 +491,7 @@ td span {
 .confirmar {
   width: 90%;
   max-width: 500px;
-  margin: 50px auto;
+  margin: 30px auto;
   padding: 40px 30px;
   text-align: center;
   background: white;
@@ -609,7 +609,7 @@ td span {
   z-index: 9999;
   font-size: 4rem;
   font-weight: 700;
-  color: rgba(43, 43, 43, 0.108);
+  color: rgba(43, 43, 43, 0.044);
   transform: rotate(-30deg);
   text-transform: uppercase;
   letter-spacing: 8px;
@@ -622,52 +622,101 @@ td span {
 }
 
 .ticket-info {
+  margin-top: 50px;
   width: 100%;
   background: #fff;
+  overflow: hidden;
 }
 
 .info-row {
   display: flex;
   width: 100%;
-  align-items: center;
+  align-items: stretch;
 }
 
 .info-col {
   flex: 1;
-  padding: 15px 18px;
+  padding: 17px 20px 19px;
+  position: relative;
+}
+
+/* Pequeño detalle decorativo superior */
+.info-col::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 20px;
+  width: 28px;
+  height: 1px;
+  background: #c9a44c;
 }
 
 .info-col .label {
   display: block;
-  font-size: 10px;
-  letter-spacing: 2px;
-  font-weight: 600;
+  font-family: Arial, sans-serif;
+  font-size: 8px;
+  letter-spacing: 2.5px;
+  font-weight: 700;
   color: #9b7a9f;
-  margin-bottom: 5px;
+  margin-bottom: 7px;
+  text-transform: uppercase;
 }
 
 .info-col .value {
-  display: block;
+  display: flex;
+  align-items: baseline;
+  gap: 5px;
   font-family: "Merriweather", serif;
-  font-size: 17px;
-  font-weight: 600;
+  font-size: 21px;
+  line-height: 1;
+  font-weight: 700;
   color: #3d303f;
 }
 
 .pases-texto {
-  font-family: "Merriweather", serif;
-  font-size: 13px;
-  font-weight: 400;
-  color: #777;
+  font-family: Arial, sans-serif;
+  font-size: 10px;
+  letter-spacing: 1px;
+  font-weight: 500;
+  color: #8c838c;
+  text-transform: uppercase;
 }
 
 .border-top {
-  border-top: 1px dashed rgba(183, 79, 197, 0.25);
+  border-top: 1px dashed rgba(155, 122, 159, 0.35);
 }
 
+/* Detalle tipo sello de boleto */
 .stamp-icon {
-  flex: 0 0 55px;
-  text-align: center;
+  flex: 0 0 58px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   color: #c9a44c;
-  font-size: 25px;
+  font-size: 22px;
+  border-left: 1px solid rgba(201, 164, 76, 0.18);
+}
+
+/* En móvil */
+@media (max-width: 480px) {
+  .info-col {
+    padding: 15px 17px 17px;
+  }
+
+  .info-col::before {
+    left: 17px;
+  }
+
+  .info-col .label {
+    font-size: 7px;
+    letter-spacing: 2px;
+  }
+
+  .info-col .value {
+    font-size: 19px;
+  }
+
+  .pases-texto {
+    font-size: 9px;
+  }
 }
