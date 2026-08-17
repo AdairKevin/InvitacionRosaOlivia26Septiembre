@@ -5,9 +5,17 @@ function abrirSobre() {
   if (!sobre.classList.contains("abierto")) {
     sobre.classList.add("abierto");
     sobre.onclick = null;
-    musica.play().catch((error) => {
-      console.log("No se pudo reproducir la música:", error);
-    });
+    musica.volume = 0.8;
+    musica.loop = true;
+
+    musica
+      .play()
+      .then(() => {
+        console.log("🎵 Música iniciada");
+      })
+      .catch((error) => {
+        console.error("Error:", error);
+      });
   }
 }
 
