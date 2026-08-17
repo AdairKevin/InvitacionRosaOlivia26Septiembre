@@ -599,6 +599,7 @@ td span {
   color: #e764d8;
 }
 
+/*
 .watermark {
   position: fixed;
   inset: 0;
@@ -614,6 +615,7 @@ td span {
   text-transform: uppercase;
   letter-spacing: 8px;
 }
+*/
 
 .musica {
   margin: 0 auto;
